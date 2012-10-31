@@ -4,7 +4,8 @@ ruby "1.9.3"
 gem "thin",         require: false
 gem "foreman",      require: false
 
-gem "rails",                "3.2.8"
+#gem "rails",                "3.2.8"
+gem 'rails', github: 'rails/rails', branch: '3-2-stable'
 gem "slim-rails",           "1.0.3"
 gem "redcarpet",            "2.2.2"
 gem "friendly_id",          "4.0.8"
